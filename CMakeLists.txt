@@ -1,14 +1,8 @@
 cmake_minimum_required(VERSION 4.2)
-project(CargoManagementSystem)
+project(3d-bin-packing-simulator)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(HelloWorld main.cpp
-        Cargo.cpp
-        Cargo.h
-        CargoCube.cpp
-        CargoCube.h
-        CargoSphere.cpp
-        CargoSphere.h
-        CargoBay.cpp
-        CargoBay.h)
+add_executable(3d-bin-packing-simulator main.cpp
+        main.cpp
+        main.h)
