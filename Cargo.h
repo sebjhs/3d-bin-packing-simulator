@@ -1,5 +1,5 @@
-#ifndef HELLOWORLD_CARGO_H
-#define HELLOWORLD_CARGO_H
+#ifndef CARGOMANAGEMENTSYSTEM_CARGO_H
+#define CARGOMANAGEMENTSYSTEM_CARGO_H
 #include <string>
 
 class Cargo {
