@@ -1,0 +1,9 @@
+# Ignore CLion's configuration directory
+.idea/
+
+# Ignore the build artifacts and executable binaries
+cmake-build-debug/
+cmake-build-release/
+build/
+*.exe
+*.out
