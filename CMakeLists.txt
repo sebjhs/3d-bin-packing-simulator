@@ -3,6 +3,12 @@ project(3d-bin-packing-simulator)
 
 set(CMAKE_CXX_STANDARD 23)
 
+find_package(raylib REQUIRED)
+
 add_executable(3d-bin-packing-simulator main.cpp
         main.cpp
-        main.h)
+        Shape.h
+        raygui.h
+        Cube.h)
+
+target_link_libraries(3d-bin-packing-simulator PRIVATE raylib)
